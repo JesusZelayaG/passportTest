@@ -13,6 +13,7 @@ app.use(session({
     secret:'mi ultra hiper secreto',
     resave:true,
     saveUninitialized:true
+    //store: donde se almacenara la session (redis)
 }));
 //secrete un secreto
 //resave : cada peticion aunq no se modifique la session se vuelve a guardar
